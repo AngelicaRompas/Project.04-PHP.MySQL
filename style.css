@@ -1,0 +1,158 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+.logo a {
+    font-size: 45px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #36a4a2;
+    padding-right: 20px;
+}
+.menu {
+    float: right;
+    color: #36a4a2;
+}
+
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    border-bottom: 1px solid #000000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 16px; /* Mengurangi padding atas dan bawah */
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom h3:first-of-type {
+    margin-bottom: 20px; 
+}
+
+.kolom img {
+    margin-bottom: 20px; 
+}
+
+.kolom p {
+    margin-top: 20px;
+}
+
+.kolom .deskripsi {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'comic sans-ms';
+    color: #36a4a2;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800; /* Ubah 800px menjadi 800 */
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #36a4a2;
+    width: 100%;
+    line-height: 50px;
+}
+
+p {
+    margin: 10px 0;
+    padding: 10px 0;
+}
+#Home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Profil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Galery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kolom {
+    display: inline-block; /* Mengatur agar konten tetap berada di sebaris */
+    text-align: left; /* Mengatur teks kembali ke kiri di dalam kontainer */
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+
+img:hover {
+    transform: scale(1.1);
+}
+
+
+.moving-background {
+    animation: moveBackground 10s linear infinite; /* Ubah durasi sesuai keinginan */
+}
